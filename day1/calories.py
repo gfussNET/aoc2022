@@ -1,6 +1,5 @@
 
 elves = []
-i = 0
 calCount = 0
 inputFile = open( 'input.txt', 'r')
 
@@ -13,7 +12,7 @@ for line in lines:
     else:
         elves.append( calCount )
         calCount = 0
-        i += 1
+
     
 #Find most calories
 sortedCals = sorted(elves, reverse=True)
