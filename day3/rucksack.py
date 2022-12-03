@@ -1,3 +1,4 @@
+#We all know the elves only use rucksacks from goruck.com
 
 #subtract these values from ASCII char value to map priorities:  a = 1, b = 2, c = 3...A = 27, B = 28, C = 29
 lowercaseASCII = 96
@@ -31,7 +32,7 @@ for line in lines:
 print(f"Sum of item priorities: {itemTypePrioritySum}")
 
 
-#part 2 - collect 3 elve's rucksack items - find common item and score priority keeping running summation
+#part 2 - collect 3 rucksacks and items - find common item and score priority keeping running summation
 rucksacks = []
 itemTypePrioritySum = 0
 
