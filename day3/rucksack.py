@@ -37,7 +37,7 @@ itemTypePrioritySum = 0
 
 for line in lines:
     rucksacks.append( line.strip() )
-    if len(rucksacks) >= 3: #we have a group of 3, find sommon item type and score it
+    if len(rucksacks) >= 3: #we have a group of 3, find common item type and score it
         itemTypeMatch = set.intersection( *map( set,rucksacks ) )
         
         itemType = list(itemTypeMatch)[0]
