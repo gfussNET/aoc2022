@@ -1,6 +1,3 @@
-
-
-
 inputFile = open( 'input.txt', 'r')
 
 lines = inputFile.readlines()
@@ -28,6 +25,6 @@ for line in lines:
     sectionAList = []
     sectionBList = []
     
-print(f"Duplicated Effort total: {duplicatedEffort}\n Overlapping Total: {overlappingSections}")
+print(f"Duplicated Effort Total: {duplicatedEffort}\n Overlapping Total: {overlappingSections}")
     
 
